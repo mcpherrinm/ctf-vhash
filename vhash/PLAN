@@ -1,0 +1,15 @@
+
+
+ * We have the hash value
+  break on print_hash
+  put in our state, which is just the hash value recovered
+
+  call vhash_update with the appended data
+  which is user name =adm inis trat or&&
+
+  call vhash_final with the right length
+
+  call print_hash
+
+
+Now we have the hash to get our real cookie done, curl that fucker
